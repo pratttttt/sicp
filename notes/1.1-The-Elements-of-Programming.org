@@ -11,3 +11,11 @@ complex ones:
    
 * 1.1.1 Expressions
 
+  (+ 137 349)
+Expressions such as these, formed by delimiting a list of expressions
+within parantheses in order to denote procedure application, are
+called combinations. Leftmost element is the operator and the other
+elements are called operands.
+
+Lisp follows prefix notation.
+
