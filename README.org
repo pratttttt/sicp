@@ -6,30 +6,34 @@
   |------------------+------------------+--------------|
   | [2014-11-21 Fri] | [2014-11-24 Mon] |            3 |
   #+TBLFM: $3 = $2 - $1
-
+  
 * Log
-#+BEGIN: clocktable :maxlevel 2 :scope subtree
-#+CAPTION: Clock summary at [2014-11-24 Mon 06:30]
-| Headline                                    | Time   |      |
-|---------------------------------------------+--------+------|
-| *Total time*                                | *1:00* |      |
-|---------------------------------------------+--------+------|
-| Log                                         | 1:00   |      |
-| \emsp DONE Frontmatter [100%]               |        | 0:30 |
-| \emsp TODO 1  Building Abstractions with... |        | 0:30 |
-#+END:
-
+  #+BEGIN: clocktable :maxlevel 3 :scope subtree
+  #+CAPTION: Clock summary at [2014-11-24 Mon 07:06]
+  | Headline                                           | Time   |      |      |
+  |----------------------------------------------------+--------+------+------|
+  | *Total time*                                       | *1:30* |      |      |
+  |----------------------------------------------------+--------+------+------|
+  | Log                                                | 1:30   |      |      |
+  | \emsp DONE Frontmatter [100%]                      |        | 0:30 |      |
+  | \emsp TODO 1 Building Abstractions with...         |        | 1:00 |      |
+  | \emsp\emsp TODO 1.1 The Elements of Programming... |        |      | 1:00 |
+  #+END:
+  
 ** DONE Frontmatter [100%]
    CLOCK: [2014-11-21 Fri 06:46]--[2014-11-21 Fri 07:16] =>  0:30
-
-** TODO 1  Building Abstractions with Procedures [0%]
-*** TODO 1.1  The Elements of Programming
+   
+** TODO 1 Building Abstractions with Procedures [14%]
+   :PROPERTIES: 
+   :COOKIE_DATA: todo recursive
+   :END:      
+   
+*** TODO 1.1 The Elements of Programming [37%]
     CLOCK: [2014-11-24 Mon 05:38]--[2014-11-24 Mon 06:08] =>  0:30
-**** TODO 1.1.1  Expressions
-     CLOCK: [2014-11-24 Mon 06:34]
-
-**** TODO 1.1.2  Naming and the Environment
-**** TODO 1.1.3  Evaluating Combinations
+**** DONE 1.1.1  Expressions
+**** DONE 1.1.2  Naming and the Environment
+**** DONE 1.1.3  Evaluating Combinations
+     CLOCK: [2014-11-24 Mon 06:34]--[2014-11-24 Mon 07:04] =>  0:30
 **** TODO 1.1.4  Compound Procedures
 **** TODO 1.1.5  The Substitution Model for Procedure Application
 **** TODO 1.1.6  Conditional Expressions and Predicates
@@ -147,5 +151,5 @@
 **** TODO 5.5.6  Lexical Addressing
 **** TODO 5.5.7  Interfacing Compiled Code to the Evaluator
      
-
-
+     
+     

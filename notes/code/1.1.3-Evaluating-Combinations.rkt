@@ -1,0 +1,3 @@
+#lang planet neil/sicp
+
+(* (+ 2 (* 4 6)) (+ 3 5 7))
