@@ -1,0 +1,5 @@
+# Mac Cruft
+.DS_Store
+
+# Ignore Emacs files
+\#*#
