@@ -1,5 +1,6 @@
 * Learning SICP
-  Notes and answer to exercises from SICP.
+  Log of my SICP pursuit. Will include answers to exercises and notes
+  taken down during the learning sessions.
   
 * Metadata
   | Start Date       | Current Date     | Days Elapsed |
