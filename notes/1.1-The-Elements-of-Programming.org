@@ -112,21 +112,37 @@ limited form of normal-order evaluation.
 
 
 * 1.1.6 Conditional Expressions and Predicates
-
+  
   Introducing case analysis.
   
   A conditional consists of clauses called predicate and consequent expression.
   (cond <p1> <e1> <p2><e2> ...)
-
+  
   Idea: Instead of else in a conditional expression, you could use a
   any expression that when evaluated return true always.
   (define (abs x)
-(cond ((< x 0) (- x))
-((= 1 1) x)))
-is a valid replacement for else.
-
-(if <predicate> <consequent> <alternative>)
-
-
-
+  (cond ((< x 0) (- x))
+  ((= 1 1) x)))
+  is a valid replacement for else.
+  
+  (if <predicate> <consequent> <alternative>)
+  
+* 1.1.7 Example: Square Roots by Newton's Method
+  
+  The difference between mathematical functions and computer
+  procedures are that they must be effective.
+  
+  /As the name indicates a computer procedure should be prescriptive of
+  how it would reach at the solution./
+  
+  The contrast between function and procedure is a reflection of the
+  general distinction between describing properties of things and
+  describing how to do things, or, as it is sometimes referred to, the
+  distinction between declarative knowledge and imperative knowledge. 
+  
+  In mathematics we are usually concerned with declarative (what is)
+  descriptions, whereas in computer science we are usually concerned
+  with imperative (how to) descriptions.
+  /Computers are increasingly trying to be declarative, even though
+  not purely possible at the moment, advances are being made./
 
