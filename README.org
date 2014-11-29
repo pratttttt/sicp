@@ -199,15 +199,16 @@
 
 ** TODO Chapter 1 [10%]
 
-*** TODO Chapter 1.1 [62%]
+*** TODO Topic 1.1 [62%]
 
-**** DONE Exercise 1.1
-**** DONE Exercise 1.2
-**** DONE Exercise 1.3
+**** DONE +Exercise 1.1+
+**** DONE +Exercise 1.2+
+**** DONE +Exercise 1.3+
 CLOCK: [2014-11-29 Sat 01:10]--[2014-11-29 Sat 01:25] =>  0:15
-**** DONE Exercise 1.4
-**** DONE Exercise 1.5
+**** DONE +Exercise 1.4+
+**** DONE +Exercise 1.5+
 CLOCK: [2014-11-29 Sat 03:22]--[2014-11-29 Sat 03:35] =>  0:13
+
 **** TODO Exercise 1.6
 **** TODO Exercise 1.7
 **** TODO Exercise 1.8
