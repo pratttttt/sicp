@@ -4,41 +4,52 @@
 * Metadata
   | Start Date       | Current Date     | Days Elapsed |
   |------------------+------------------+--------------|
-  | [2014-11-21 Fri] | [2014-11-24 Mon] |            3 |
+  | [2014-11-21 Fri] | [2014-11-29 Sat] |            8 |
   #+TBLFM: $3 = $2 - $1
   
 * Log
-  #+BEGIN: clocktable :maxlevel 3 :scope subtree
-  #+CAPTION: Clock summary at [2014-11-24 Mon 07:06]
-  | Headline                                           | Time   |      |      |
-  |----------------------------------------------------+--------+------+------|
-  | *Total time*                                       | *1:30* |      |      |
-  |----------------------------------------------------+--------+------+------|
-  | Log                                                | 1:30   |      |      |
-  | \emsp DONE Frontmatter [100%]                      |        | 0:30 |      |
-  | \emsp TODO 1 Building Abstractions with...         |        | 1:00 |      |
-  | \emsp\emsp TODO 1.1 The Elements of Programming... |        |      | 1:00 |
-  #+END:
+  |  Reading | Exercises |    Total |
+  |----------+-----------+----------|
+  | 02:15:00 |  00:15:00 | 02:30:00 |
+  #+TBLFM: @2$1 = remote(Reading, @2$2);T::@2$2 = remote(Exercises, @2$2);T::$3 = $1 + $2;T
   
+
+* Reading Log
+#+NAME: Reading
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2014-11-29 Sat 02:51]
+| Headline                                   | Time   |      |
+|--------------------------------------------+--------+------|
+| *Total time*                               | *2:15* |      |
+|--------------------------------------------+--------+------|
+| Reading Log                                | 2:15   |      |
+| \emsp DONE Frontmatter [100%]              |        | 0:30 |
+| \emsp TODO 1 Building Abstractions with... |        | 1:45 |
+#+END:
+
 ** DONE Frontmatter [100%]
    CLOCK: [2014-11-21 Fri 06:46]--[2014-11-21 Fri 07:16] =>  0:30
    
-** TODO 1 Building Abstractions with Procedures [14%]
+** TODO 1 Building Abstractions with Procedures [23%]
    :PROPERTIES: 
    :COOKIE_DATA: todo recursive
    :END:      
    
-*** TODO 1.1 The Elements of Programming [37%]
+*** TODO 1.1 The Elements of Programming [62%]
     CLOCK: [2014-11-24 Mon 05:38]--[2014-11-24 Mon 06:08] =>  0:30
 **** DONE 1.1.1  Expressions
 **** DONE 1.1.2  Naming and the Environment
 **** DONE 1.1.3  Evaluating Combinations
      CLOCK: [2014-11-24 Mon 06:34]--[2014-11-24 Mon 07:04] =>  0:30
-**** TODO 1.1.4  Compound Procedures
-**** TODO 1.1.5  The Substitution Model for Procedure Application
+**** DONE 1.1.4  Compound Procedures
+**** DONE 1.1.5  The Substitution Model for Procedure Application
+     CLOCK: [2014-11-29 Sat 00:55]--[2014-11-29 Sat 01:10] =>  0:15
+     CLOCK: [2014-11-24 Mon 22:51]--[2014-11-24 Mon 23:21] =>  0:30
+
 **** TODO 1.1.6  Conditional Expressions and Predicates
 **** TODO 1.1.7  Example: Square Roots by Newton's Method
 **** TODO 1.1.8  Procedures as Black-Box Abstractions
+
 *** TODO 1.2  Procedures and the Processes They Generate
 **** TODO 1.2.1  Linear Recursion and Iteration
 **** TODO 1.2.2  Tree Recursion
@@ -150,6 +161,389 @@
 **** TODO 5.5.5  An Example of Compiled Code
 **** TODO 5.5.6  Lexical Addressing
 **** TODO 5.5.7  Interfacing Compiled Code to the Evaluator
-     
-     
-     
+
+* Exercise Log [1%]
+  :PROPERTIES: 
+  :COOKIE_DATA: todo recursive
+  :END:      
+
+#+NAME: Exercises
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2014-11-29 Sat 02:48]
+| Headline                  | Time   |      |
+|---------------------------+--------+------|
+| *Total time*              | *0:15* |      |
+|---------------------------+--------+------|
+| Exercise Log [0%]         | 0:15   |      |
+| \emsp TODO Chapter 1 [6%] |        | 0:15 |
+#+END:
+
+
+** TODO Chapter 1 [6%]
+
+*** DONE Exercise 1.1
+*** DONE Exercise 1.2
+*** DONE Exercise 1.3
+CLOCK: [2014-11-29 Sat 01:10]--[2014-11-29 Sat 01:25] =>  0:15
+
+*** TODO Exercise 1.4
+*** TODO Exercise 1.5
+*** TODO Exercise 1.6
+*** TODO Exercise 1.7
+*** TODO Exercise 1.8
+*** TODO Exercise 1.9
+*** TODO Exercise 1.10
+*** TODO Exercise 1.11
+*** TODO Exercise 1.12
+*** TODO Exercise 1.13
+*** TODO Exercise 1.14
+*** TODO Exercise 1.15
+*** TODO Exercise 1.16
+*** TODO Exercise 1.17
+*** TODO Exercise 1.18
+*** TODO Exercise 1.19
+*** TODO Exercise 1.20
+*** TODO Exercise 1.21
+*** TODO Exercise 1.22
+*** TODO Exercise 1.23
+*** TODO Exercise 1.24
+*** TODO Exercise 1.25
+*** TODO Exercise 1.26
+*** TODO Exercise 1.27
+*** TODO Exercise 1.28
+*** TODO Exercise 1.29
+*** TODO Exercise 1.30
+*** TODO Exercise 1.31
+*** TODO Exercise 1.32
+*** TODO Exercise 1.33
+*** TODO Exercise 1.34
+*** TODO Exercise 1.35
+*** TODO Exercise 1.36
+*** TODO Exercise 1.37
+*** TODO Exercise 1.38
+*** TODO Exercise 1.39
+*** TODO Exercise 1.40
+*** TODO Exercise 1.41
+*** TODO Exercise 1.42
+*** TODO Exercise 1.43
+*** TODO Exercise 1.44
+*** TODO Exercise 1.45
+*** TODO Exercise 1.46
+
+*** TODO Chapter 2
+** TODO Exercise 2.1
+** TODO Exercise 2.2
+** TODO Exercise 2.3
+** TODO Exercise 2.4
+** TODO Exercise 2.5
+** TODO Exercise 2.6
+** TODO Exercise 2.7
+** TODO Exercise 2.8
+** TODO Exercise 2.9
+** TODO Exercise 2.10
+** TODO Exercise 2.11
+** TODO Exercise 2.12
+** TODO Exercise 2.13
+** TODO Exercise 2.14
+** TODO Exercise 2.15
+** TODO Exercise 2.16
+** TODO Exercise 2.17
+** TODO Exercise 2.18
+** TODO Exercise 2.19
+** TODO Exercise 2.20
+** TODO Exercise 2.21
+** TODO Exercise 2.22
+** TODO Exercise 2.23
+** TODO Exercise 2.24
+** TODO Exercise 2.25
+** TODO Exercise 2.26
+** TODO Exercise 2.27
+** TODO Exercise 2.28
+** TODO Exercise 2.29
+** TODO Exercise 2.30
+** TODO Exercise 2.31
+** TODO Exercise 2.32
+** TODO Exercise 2.33
+** TODO Exercise 2.34
+** TODO Exercise 2.35
+** TODO Exercise 2.36
+** TODO Exercise 2.37
+** TODO Exercise 2.38
+** TODO Exercise 2.39
+** TODO Exercise 2.40
+** TODO Exercise 2.41
+** TODO Exercise 2.42
+** TODO Exercise 2.43
+** TODO Exercise 2.44
+** TODO Exercise 2.45
+** TODO Exercise 2.46
+** TODO Exercise 2.47
+** TODO Exercise 2.48
+** TODO Exercise 2.49
+** TODO Exercise 2.50
+** TODO Exercise 2.51
+** TODO Exercise 2.52
+** TODO Exercise 2.53
+** TODO Exercise 2.54
+** TODO Exercise 2.55
+** TODO Exercise 2.56
+** TODO Exercise 2.57
+** TODO Exercise 2.58
+** TODO Exercise 2.59
+** TODO Exercise 2.60
+** TODO Exercise 2.61
+** TODO Exercise 2.62
+** TODO Exercise 2.63
+** TODO Exercise 2.64
+** TODO Exercise 2.65
+** TODO Exercise 2.66
+** TODO Exercise 2.67
+** TODO Exercise 2.68
+** TODO Exercise 2.69
+** TODO Exercise 2.70
+** TODO Exercise 2.71
+** TODO Exercise 2.72
+** TODO Exercise 2.73
+** TODO Exercise 2.74
+** TODO Exercise 2.75
+** TODO Exercise 2.76
+** TODO Exercise 2.77
+** TODO Exercise 2.78
+** TODO Exercise 2.79
+** TODO Exercise 2.80
+** TODO Exercise 2.81
+** TODO Exercise 2.82
+** TODO Exercise 2.83
+** TODO Exercise 2.84
+** TODO Exercise 2.85
+** TODO Exercise 2.86
+** TODO Exercise 2.87
+** TODO Exercise 2.88
+** TODO Exercise 2.89
+** TODO Exercise 2.90
+** TODO Exercise 2.91
+** TODO Exercise 2.92
+** TODO Exercise 2.93
+** TODO Exercise 2.94
+** TODO Exercise 2.95
+** TODO Exercise 2.96
+** TODO Exercise 2.97
+
+*** TODO Chapter 3
+** TODO Exercise 3.1
+** TODO Exercise 3.2
+** TODO Exercise 3.3
+** TODO Exercise 3.4
+** TODO Exercise 3.5
+** TODO Exercise 3.6
+** TODO Exercise 3.7
+** TODO Exercise 3.8
+** TODO Exercise 3.9
+** TODO Exercise 3.10
+** TODO Exercise 3.11
+** TODO Exercise 3.12
+** TODO Exercise 3.13
+** TODO Exercise 3.14
+** TODO Exercise 3.15
+** TODO Exercise 3.16
+** TODO Exercise 3.17
+** TODO Exercise 3.18
+** TODO Exercise 3.19
+** TODO Exercise 3.20
+** TODO Exercise 3.21
+** TODO Exercise 3.22
+** TODO Exercise 3.23
+** TODO Exercise 3.24
+** TODO Exercise 3.25
+** TODO Exercise 3.26
+** TODO Exercise 3.27
+** TODO Exercise 3.28
+** TODO Exercise 3.29
+** TODO Exercise 3.30
+** TODO Exercise 3.31
+** TODO Exercise 3.32
+** TODO Exercise 3.33
+** TODO Exercise 3.34
+** TODO Exercise 3.35
+** TODO Exercise 3.36
+** TODO Exercise 3.37
+** TODO Exercise 3.38
+** TODO Exercise 3.39
+** TODO Exercise 3.40
+** TODO Exercise 3.41
+** TODO Exercise 3.42
+** TODO Exercise 3.43
+** TODO Exercise 3.44
+** TODO Exercise 3.45
+** TODO Exercise 3.46
+** TODO Exercise 3.47
+** TODO Exercise 3.48
+** TODO Exercise 3.49
+** TODO Exercise 3.50
+** TODO Exercise 3.51
+** TODO Exercise 3.52
+** TODO Exercise 3.53
+** TODO Exercise 3.54
+** TODO Exercise 3.55
+** TODO Exercise 3.56
+** TODO Exercise 3.57
+** TODO Exercise 3.58
+** TODO Exercise 3.59
+** TODO Exercise 3.60
+** TODO Exercise 3.61
+** TODO Exercise 3.62
+** TODO Exercise 3.63
+** TODO Exercise 3.64
+** TODO Exercise 3.65
+** TODO Exercise 3.66
+** TODO Exercise 3.67
+** TODO Exercise 3.68
+** TODO Exercise 3.69
+** TODO Exercise 3.70
+** TODO Exercise 3.71
+** TODO Exercise 3.72
+** TODO Exercise 3.73
+** TODO Exercise 3.74
+** TODO Exercise 3.75
+** TODO Exercise 3.76
+** TODO Exercise 3.77
+** TODO Exercise 3.78
+** TODO Exercise 3.79
+** TODO Exercise 3.80
+** TODO Exercise 3.81
+** TODO Exercise 3.82
+
+* TODO Chapter 4
+** TODO Exercise 4.1
+** TODO Exercise 4.2
+** TODO Exercise 4.3
+** TODO Exercise 4.4
+** TODO Exercise 4.5
+** TODO Exercise 4.6
+** TODO Exercise 4.7
+** TODO Exercise 4.8
+** TODO Exercise 4.9
+** TODO Exercise 4.10
+** TODO Exercise 4.11
+** TODO Exercise 4.12
+** TODO Exercise 4.13
+** TODO Exercise 4.14
+** TODO Exercise 4.15
+** TODO Exercise 4.16
+** TODO Exercise 4.17
+** TODO Exercise 4.18
+** TODO Exercise 4.19
+** TODO Exercise 4.20
+** TODO Exercise 4.21
+** TODO Exercise 4.22
+** TODO Exercise 4.23
+** TODO Exercise 4.24
+** TODO Exercise 4.25
+** TODO Exercise 4.26
+** TODO Exercise 4.27
+** TODO Exercise 4.28
+** TODO Exercise 4.29
+** TODO Exercise 4.30
+** TODO Exercise 4.31
+** TODO Exercise 4.32
+** TODO Exercise 4.33
+** TODO Exercise 4.34
+** TODO Exercise 4.35
+** TODO Exercise 4.36
+** TODO Exercise 4.37
+** TODO Exercise 4.38
+** TODO Exercise 4.39
+** TODO Exercise 4.40
+** TODO Exercise 4.41
+** TODO Exercise 4.42
+** TODO Exercise 4.43
+** TODO Exercise 4.44
+** TODO Exercise 4.45
+** TODO Exercise 4.46
+** TODO Exercise 4.47
+** TODO Exercise 4.48
+** TODO Exercise 4.49
+** TODO Exercise 4.50
+** TODO Exercise 4.51
+** TODO Exercise 4.52
+** TODO Exercise 4.53
+** TODO Exercise 4.54
+** TODO Exercise 4.55
+** TODO Exercise 4.56
+** TODO Exercise 4.57
+** TODO Exercise 4.58
+** TODO Exercise 4.59
+** TODO Exercise 4.60
+** TODO Exercise 4.61
+** TODO Exercise 4.62
+** TODO Exercise 4.63
+** TODO Exercise 4.64
+** TODO Exercise 4.65
+** TODO Exercise 4.66
+** TODO Exercise 4.67
+** TODO Exercise 4.68
+** TODO Exercise 4.69
+** TODO Exercise 4.70
+** TODO Exercise 4.71
+** TODO Exercise 4.72
+** TODO Exercise 4.73
+** TODO Exercise 4.74
+** TODO Exercise 4.75
+** TODO Exercise 4.76
+** TODO Exercise 4.77
+** TODO Exercise 4.78
+** TODO Exercise 4.79
+
+*** TODO Chapter 5
+** TODO Exercise 5.1
+** TODO Exercise 5.2
+** TODO Exercise 5.3
+** TODO Exercise 5.4
+** TODO Exercise 5.5
+** TODO Exercise 5.6
+** TODO Exercise 5.7
+** TODO Exercise 5.8
+** TODO Exercise 5.9
+** TODO Exercise 5.10
+** TODO Exercise 5.11
+** TODO Exercise 5.12
+** TODO Exercise 5.13
+** TODO Exercise 5.14
+** TODO Exercise 5.15
+** TODO Exercise 5.16
+** TODO Exercise 5.17
+** TODO Exercise 5.18
+** TODO Exercise 5.19
+** TODO Exercise 5.20
+** TODO Exercise 5.21
+** TODO Exercise 5.22
+** TODO Exercise 5.23
+** TODO Exercise 5.24
+** TODO Exercise 5.25
+** TODO Exercise 5.26
+** TODO Exercise 5.27
+** TODO Exercise 5.28
+** TODO Exercise 5.29
+** TODO Exercise 5.30
+** TODO Exercise 5.31
+** TODO Exercise 5.32
+** TODO Exercise 5.33
+** TODO Exercise 5.34
+** TODO Exercise 5.35
+** TODO Exercise 5.36
+** TODO Exercise 5.37
+** TODO Exercise 5.38
+** TODO Exercise 5.39
+** TODO Exercise 5.40
+** TODO Exercise 5.41
+** TODO Exercise 5.42
+** TODO Exercise 5.43
+** TODO Exercise 5.44
+** TODO Exercise 5.45
+** TODO Exercise 5.46
+** TODO Exercise 5.47
+** TODO Exercise 5.48
+** TODO Exercise 5.49
+** TODO Exercise 5.50
+** TODO Exercise 5.51
+** TODO Exercise 5.52

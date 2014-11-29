@@ -75,4 +75,58 @@ evaluation rule.
 
 "Syntactic Sugar causes cancer of the semicolon" - Alan Perlis
 
+* 1.1.4 Compound Procedures
+Procedure definitions are a much more powerful abstraction technique
+by which a compound operation can be given a name and then referred to
+as a unit.
+
+(define (<name> <formal parameters>) <body>)
+Formal parameters are the names used within the body of the procedure
+to refer to the corresponding arguments of the procedure.
+
+* 1.1.5 The Substitution Model for Procedure Application
+The substitution model is only a rough model to explain what is
+actually going underneath the hood. A way to get started thinking
+formally about the evaluation process.
+
+It is surprisingly complicated to give a rigorous mathematical
+definition of the substitution process. THe problem arises form teh
+possibility of confusion between the names used for the formal
+parameters of a procedure and the (possibly identical) names used in
+the expressions to which the procedure may be applied. Indeed, there
+is a long history of erroneous definitions of substitution in the
+literature of logic and programming semantics.
+
+Fully expand and then reduce => Normal-order evaluation.
+Evaluate the arguments and then apply method => Applicative order evaluation.
+
+Lisp uses applicative-order evaluation, partly because of the
+additional efficiency obtained from avoiding multiple evaluations of
+expressions such as those illustrated with (+ 5 1) and (* 5 2) above
+and, more significantly, because normal-order evaluation becomes much
+more complicated to deal with when we leave the realm of procedures
+that can be modeled by substitution. On the other hand, normal-order
+evaluation can be an extremely valuable tool when we deal with stream
+processing and apparently infinite data structures by incorporating a
+limited form of normal-order evaluation.
+
+
+* 1.1.6 Conditional Expressions and Predicates
+
+  Introducing case analysis.
+  
+  A conditional consists of clauses called predicate and consequent expression.
+  (cond <p1> <e1> <p2><e2> ...)
+
+  Idea: Instead of else in a conditional expression, you could use a
+  any expression that when evaluated return true always.
+  (define (abs x)
+(cond ((< x 0) (- x))
+((= 1 1) x)))
+is a valid replacement for else.
+
+(if <predicate> <consequent> <alternative>)
+
+
+
 
