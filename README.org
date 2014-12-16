@@ -3,58 +3,67 @@
   Log of my SICP pursuit. Will include answers to exercises and notes
   taken down during the learning sessions.
   
+
 * Metadata
 
   | Start Date       | Current Date     | Days Elapsed |
   |------------------+------------------+--------------|
-  | [2014-11-21 Fri] | [2014-11-29 Sat] |            8 |
+  | [2014-11-21 Fri] | [2014-12-16 Tue] |           25 |
   #+TBLFM: $3 = $2 - $1
   
 
 * Log
-  |-------------+----------+----------+-----------+----------+----------|
-  | Topic       |  Reading |          | Exercises |          |    Total |
-  |-------------+----------+----------+-----------+----------+----------|
-  | Frontmatter | 00:30:00 |          |           |          | 00:30:00 |
-  |-------------+----------+----------+-----------+----------+----------|
-  | Chapter 1   | 02:02:00 |          |  00:28:00 |          | 02:30:00 |
-  |-------------+----------+----------+-----------+----------+----------|
-  | 1.1         |          | 02:02:00 |           | 00:28:00 | 02:30:00 |
-  |-------------+----------+----------+-----------+----------+----------|
-  | 1.2         |          |          |           |          | 00:00:00 |
-  |-------------+----------+----------+-----------+----------+----------|
-  | 1.3         |          |          |           |          | 00:00:00 |
-  |-------------+----------+----------+-----------+----------+----------|
-  |             |          |          |           |          | 00:00:00 |
-  |-------------+----------+----------+-----------+----------+----------|
-  | Total       | 02:32:00 |          |  00:28:00 |          | 03:00:00 |
-  |-------------+----------+----------+-----------+----------+----------|
-  #+TBLFM: $6=vsum($2..$5);T::@2$2=remote(Reading, @4$3);T::@3$2=vsum(@4$3..@6$3);T::@3$4=vsum(@4$5..@6$5);T::@4$3=remote(Reading, @6$4);T::@4$5=remote(Exercises, @5$4);T::@8$2=vsum(@2$2..@7$2);T::@8$4=vsum(@2$4..@7$4);T
+  :PROPERTIES:
+  :ID: SICP-LOG
+  :END:
+
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | Topic       |  Reading |          | Exercises |          |   Videos |          |    Total |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | Frontmatter | 00:30:00 |          |           |          |          |          | 00:30:00 |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | Chapter 1   | 02:11:00 |          |  01:19:00 |          | 01:00:00 |          | 04:30:00 |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | 1.1         |          | 02:11:00 |           | 01:19:00 |          |          | 03:30:00 |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | 1.2         |          |          |           |          |          |          | 00:00:00 |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | 1.3         |          |          |           |          |          |          | 00:00:00 |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | Lecture 1A  |          |          |           |          |          | 01:00:00 | 01:00:00 |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | Lecture 1B  |          |          |           |          |          |          | 00:00:00 |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | Lecture 2A  |          |          |           |          |          |          | 00:00:00 |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  | Total       | 02:41:00 |          |  01:19:00 |          | 01:00:00 |          | 05:00:00 |
+  |-------------+----------+----------+-----------+----------+----------+----------+----------|
+  #+TBLFM: $8=vsum($2..$7);T::@2$2=remote(Reading, @4$3);T::@3$2=vsum(@4$3..@7$3);T::@3$4=vsum(@4$5..@6$5);T::@3$6=vsum(@4$7..@9$7);T::@4$3=remote(Reading, @6$4);T::@4$5=remote(Exercises, @5$4);T::@7$7=remote(Videos,@4$3);T::@10$2=vsum(@2$2..@7$2);T::@10$4=vsum(@2$4..@7$4);T::@10$6=vsum(@2$6..@9$6);T
   
 
 * Reading Log
 #+NAME: Reading
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2014-11-29 Sat 03:34]
+#+CAPTION: Clock summary at [2014-12-16 Tue 22:34]
 | Headline                                           | Time   |      |      |
 |----------------------------------------------------+--------+------+------|
-| *Total time*                                       | *2:32* |      |      |
+| *Total time*                                       | *2:41* |      |      |
 |----------------------------------------------------+--------+------+------|
-| Reading Log                                        | 2:32   |      |      |
+| Reading Log                                        | 2:41   |      |      |
 | \emsp DONE +Frontmatter [100%]+                    |        | 0:30 |      |
-| \emsp TODO 1 Building Abstractions with...         |        | 2:02 |      |
-| \emsp\emsp TODO 1.1 The Elements of Programming... |        |      | 2:02 |
+| \emsp TODO 1 Building Abstractions with...         |        | 2:11 |      |
+| \emsp\emsp TODO 1.1 The Elements of Programming... |        |      | 2:11 |
 #+END:
 
 ** DONE +Frontmatter [100%]+
    CLOCK: [2014-11-21 Fri 06:46]--[2014-11-21 Fri 07:16] =>  0:30
    
-** TODO 1 Building Abstractions with Procedures [23%]
+** TODO 1 Building Abstractions with Procedures [33%]
    :PROPERTIES: 
    :COOKIE_DATA: todo recursive
    :END:      
    
-*** TODO 1.1 The Elements of Programming [62%]
+*** TODO 1.1 The Elements of Programming [87%]
     CLOCK: [2014-11-24 Mon 05:38]--[2014-11-24 Mon 06:08] =>  0:30
 **** DONE +1.1.1  Expressions+
 **** DONE +1.1.2  Naming and the Environment+
@@ -65,11 +74,12 @@
      CLOCK: [2014-11-29 Sat 00:55]--[2014-11-29 Sat 01:10] =>  0:15
      CLOCK: [2014-11-24 Mon 22:51]--[2014-11-24 Mon 23:21] =>  0:30
 
-**** TODO 1.1.6  Conditional Expressions and Predicates
+**** DONE +1.1.6  Conditional Expressions and Predicates+
      CLOCK: [2014-11-29 Sat 03:05]--[2014-11-29 Sat 03:22] =>  0:17
 
-**** TODO 1.1.7  Example: Square Roots by Newton's Method
+**** DONE +1.1.7  Example: Square Roots by Newton's Method+
 **** TODO 1.1.8  Procedures as Black-Box Abstractions
+     CLOCK: [2014-12-16 Tue 22:28]--[2014-12-16 Tue 22:37] =>  0:09
 
 *** TODO 1.2  Procedures and the Processes They Generate
 **** TODO 1.2.1  Linear Recursion and Iteration
@@ -78,11 +88,13 @@
 **** TODO 1.2.4  Exponentiation
 **** TODO 1.2.5  Greatest Common Divisors
 **** TODO 1.2.6  Example: Testing for Primality
+
 *** TODO 1.3  Formulating Abstractions with Higher-Order Procedures
 **** TODO 1.3.1  Procedures as Arguments
 **** TODO 1.3.2  Constructing Procedures Using Lambda
 **** TODO 1.3.3  Procedures as General Methods
 **** TODO 1.3.4  Procedures as Returned Values
+
 ** TODO 2  Building Abstractions with Data
 *** TODO 2.1  Introduction to Data Abstraction
 **** TODO 2.1.1  Example: Arithmetic Operations for Rational Numbers
@@ -184,28 +196,27 @@
 **** TODO 5.5.7  Interfacing Compiled Code to the Evaluator
 
 
-* Exercise Log [1%]
+* Exercise Log [2%]
   :PROPERTIES: 
   :COOKIE_DATA: todo recursive
   :END:      
 
 #+NAME: Exercises
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2014-11-29 Sat 03:41]
+#+CAPTION: Clock summary at [2014-12-16 Tue 22:33]
 | Headline                         | Time   |      |      |
 |----------------------------------+--------+------+------|
-| *Total time*                     | *0:28* |      |      |
+| *Total time*                     | *1:19* |      |      |
 |----------------------------------+--------+------+------|
-| Exercise Log [1%]                | 0:28   |      |      |
-| \emsp TODO Chapter 1 [6%]        |        | 0:28 |      |
-| \emsp\emsp TODO Chapter 1.1 [0%] |        |      | 0:28 |
+| Exercise Log [2%]                | 1:19   |      |      |
+| \emsp TODO Chapter 1 [19%]       |        | 1:19 |      |
+| \emsp\emsp DONE Topic 1.1 [100%] |        |      | 1:19 |
 #+END:
 
 
-** TODO Chapter 1 [10%]
+** TODO Chapter 1 [19%]
 
-*** TODO Topic 1.1 [62%]
-
+*** DONE Topic 1.1 [100%]
 **** DONE +Exercise 1.1+
 **** DONE +Exercise 1.2+
 **** DONE +Exercise 1.3+
@@ -214,9 +225,11 @@ CLOCK: [2014-11-29 Sat 01:10]--[2014-11-29 Sat 01:25] =>  0:15
 **** DONE +Exercise 1.5+
 CLOCK: [2014-11-29 Sat 03:22]--[2014-11-29 Sat 03:35] =>  0:13
 
-**** TODO Exercise 1.6
-**** TODO Exercise 1.7
-**** TODO Exercise 1.8
+**** DONE +Exercise 1.6+
+**** DONE Exercise 1.7
+     CLOCK: [2014-12-14 Sun 19:37]--[2014-12-14 Sun 20:07] =>  0:30
+**** DONE Exercise 1.8
+     CLOCK: [2014-12-16 Tue 22:07]--[2014-12-16 Tue 22:28] =>  0:21
 
 *** TODO Exercise 1.9
 *** TODO Exercise 1.10
@@ -574,3 +587,24 @@ CLOCK: [2014-11-29 Sat 03:22]--[2014-11-29 Sat 03:35] =>  0:13
 *** TODO Exercise 5.50
 *** TODO Exercise 5.51
 *** TODO Exercise 5.52
+    
+
+* Watching Lectures Log
+#+NAME: Videos
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2014-12-15 Mon 21:14]
+| Headline              | Time   |      |
+|-----------------------+--------+------|
+| *Total time*          | *1:00* |      |
+|-----------------------+--------+------|
+| Watching Lectures Log | 1:00   |      |
+| \emsp TODO Lecture 1A |        | 1:00 |
+#+END:
+
+** TODO Lecture 1A 
+  CLOCK: [2014-12-15 Mon 19:18]--[2014-12-15 Mon 19:48] =>  0:30
+  CLOCK: [2014-12-15 Mon 17:22]--[2014-12-15 Mon 17:52] =>  0:30
+
+
+* Reflection Log
+

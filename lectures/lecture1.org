@@ -1,0 +1,167 @@
+* Idea
+  Illustrated guide to SICP Lectures.
+  
+* Introduction to Lisp
+
+  
+* Computer Science
+  
+  +Computer+ +Science+
+
+  Computer Science is not a science. It might be engineering or art. It
+  has a lot in common with magic.
+
+  Computer is not much about computers in the same sense that geometry
+  is not about measuring instruments.
+  
+  Historical Trivia:
+  There's a lot of commonality between geometry and computer science.
+  
+  Thousands of years ago, Egyptian priesthood developed the rudiments of
+  geometry to figure out how to restore the boundaries of fields during
+  the annual flooding of Nile. To Egyptian the geometry was really the
+  use of surveying instruments.
+  
+  Computer Science is thought to be the science of computers is the same
+  reason.
+  
+  When some field is getting started and you don't really understand it
+  yet, it is easy to confuse the essence of what you're doing with the
+  tools that you use.
+  
+  And in some absolute sense, we know less about the essence of
+  Computing Science that ancient Egyptions really knew about geometry.
+  
+* Essence of Computing Science
+  
+  When we look on Egyptians, we say that the important stuff they were
+  doing, was to begin to formalize notions about space and time, to
+  start a way of talking about mathematical truths formally that led
+  to the axiomatic method that led to sort of all of modern mathematics.
+  
+  Figuring out a way to talk about so called declarative knowledge. What
+  is true.
+  
+  how to do
+  things, starting to develop a way to talk precisely about how-to knowledge, as opposed to
+  geometry that talks about what is true. 
+  
+  Imperative Knowledge: How to find things.
+  Declarative Knowledge: What is true.
+  
+  That's a method, how to do something as opposed to declarative
+  knowledge that says what you are looking for. This is a process.
+  
+  What's a process in general? It is like a magical spirit that lives in
+  the computer and does something.
+  
+  [Insert the image of a genie]
+  
+  This thing that directs a process is a pattern of rules called a procedure.
+  
+  So procedures are the spells that control these magical spirits known
+  as controls.
+  
+  Knowing the rules of language doesn't mean you understand the
+  implications of these rules. The analogy between chess rulen and
+  playing chess.
+  
+  In CS, we are in the business of formalizing how-to imperative
+  knowledge.
+  
+  The real problems of computer systems come when we are building very
+  very large systems that cannot be held in the head all at once.
+  
+  The only reason this can be done is because there are techniques for
+  controlling the complexity.
+  
+  The course is about techniques for controlling the complexity. But
+  this is not the kind of complexity that is found in real
+  systems. Computer processes are not real in some sense. It
+  is about idealized components which don't have shortcomings of real
+  life components.
+  
+  In building a large program, there's not all that much difference
+  between what you can build and what you can imagine.
+  
+  No constraints of physical systems are not limitations.
+  
+  The limitations of building large scale systems are the limitations of
+  your mind.
+  
+* First Topic: Black Box Abstractions
+  
+  Think of a black box that computes your square roots.
+  We can use the black box as a module to compute the sum of square roots.
+  
+  The square root mechanism found by Heron of Alexandria is a particular
+  case of another kind of case called finding fixed point of something.
+  
+  Method for finding a fixed point of a function f is a value y such
+  that f(y) = y
+  
+  Start with a guess for y.
+  Keep applying f over and over until the result doesn't change very much.
+  
+  There should be a way to represent fixed point in a language. So not
+  only square root of x but also all kinds of abstract fixed points
+  should be able to be represented in the language.
+  
+  When we build these boxes together, it should be possible that if we
+  feed in y and average(y, x/y) what comes out of these black box fixed
+  point should be the square root of x.
+  
+  We manufacture procedures that manufacture other procedures.
+  
+  Procedures is our way of talking about imperative knowledge.
+  
+  A strategy that talks about other strategies.
+  
+** Primitive Objects
+   Primitive Procedures and Primitive Data
+** Means of Combinations
+   Procedure Composition = Procedure + Procedure
+   Construction of Compound Data = Data + Data
+** Means of Abstractions
+   How we put blackboxes around them
+   Procedure Definition
+   Data Abstraction
+** Capturing Common Patterns
+   Common pattern of doing things
+   Higher Order Procedures: Inputs and outputs are procedures.
+   Data as Procedures
+   
+   The line between data and procedures is going to blur.
+   
+* Second Topic: Combining Complexity using Conventional Interfaces.
+  
+  We can take something and multiply it by sum of two things.
+  
+  (* x (+ a1 a2))
+  x, a1, and a2 could be anything.
+  
+  Somewhere there has to be the knowledge of constructing these things
+  that will replace these parameters and the ways of combining them.
+  
+  How do I think about the different kind of choices and if George comes
+  tomorrow without screwing up everything that was already there.
+  
+  Agreed up on ways to plugging things together such as in electrical
+  engineering.
+  
+  Generic operations on all different kinds of data.
+  
+  Large scale structures and modularity.
+  
+  Object Oriented Programming: Think of system as a society by sending
+  information between them.
+  
+  Operations on Aggregates: Think of large system put together as a
+  system electrical engineer puts together a large system.
+  
+* Third Topic: Make new languages
+  
+  Take a new design language to highlight different aspects of the system.
+  It will suppress some kinds of
+  details and emphasize other kinds of details. 
+  

@@ -110,7 +110,6 @@ evaluation can be an extremely valuable tool when we deal with stream
 processing and apparently infinite data structures by incorporating a
 limited form of normal-order evaluation.
 
-
 * 1.1.6 Conditional Expressions and Predicates
   
   Introducing case analysis.
@@ -145,4 +144,19 @@ limited form of normal-order evaluation.
   with imperative (how to) descriptions.
   /Computers are increasingly trying to be declarative, even though
   not purely possible at the moment, advances are being made./
+
+  It is crucial that each procedure accomplishes an identifiable task
+  that can be used as a module in defining other procedures. As far as
+  a specific function is concerned, other functions that are used in
+  the function acts as black box procedural abstractions whose
+  implementation detail doesn't matter at that level.
+  
+A user need not know how the procedure is implemented in order to use
+it.
+
+/This has repercussions in language implementation as well, you need
+not know how the language is implemented in order to use it. But
+probably to use it well enough, you might need to know the
+implementation detail but this is not a show stopper at all./
+
 

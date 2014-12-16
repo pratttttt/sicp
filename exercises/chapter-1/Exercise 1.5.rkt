@@ -6,7 +6,6 @@
 
 (test 0 (p))
 
-
 #|
 
 ;; Applicative Order
